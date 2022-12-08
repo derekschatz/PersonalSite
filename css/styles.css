@@ -1,47 +1,4 @@
 body{
-  background-color: #F9F7F7;
-  align-content: center;
-}
-hr{
-  border-style: none;
-  border-top: 5px dotted #DBE2EF; 
-  width: 5%;
-}
+  background-color: blue;
 
-h1, h3{
-    color: #112D4E;
-}
-img{
-    height: 100px;
-    background-color: red; 
-    
-}
-
-ul{
-  list-style-type: none;
-}
-
-/* Class selector */
-
-
-
-
-.lighthouseimage{
-    border-radius: 100%;
-    background-color: green;
-    height: 100px;
-}
-
-.profileimage{
-  /* background-color: red; */
-  background-color: none;
-}
-
-
-/* ID Selectors */
-/*********** ID Selectors will override class selectors ************/
-/* ONLY USE IDs on One attribute */
-
-#heading:hover{
-  color: blue;
 }
