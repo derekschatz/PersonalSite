@@ -3,6 +3,7 @@ body{
   text-align: center;
   font-family: 'Merriweather', serif;
   font-size: 1rem;
+  color: #40514E;
 
 }
 h1{
@@ -21,6 +22,17 @@ h2{
 }
 a{
   color: #11999e;
+  font-family: 'Nunito', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  
+}
+a:hover{
+  color: #eaf6f6;
+}
+
+p{
+  line-height: 2;
 }
 
 .top-container > h2{
@@ -42,22 +54,24 @@ hr{
 .top-container{
   background-color: #eaf6f6;
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
+}
+
+.lighthouse{
+  height: 475px;
 }
 
 
 .bottom-container{
   background-color: #66bfbf;
-  padding-bottom: 50px;
-  padding-top: 50px;
-  color: white;
+  padding: 50px 0 20px;
   margin: 50px auto 0px;
   text-align: center;
-  line-height: 2;
+  
 }
 .bottom-cloud{
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 .btn {
@@ -70,7 +84,7 @@ hr{
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Arial;
+  font-family: 'Nunito', sans-serif;
   color: #ffffff;
   font-size: 20px;
   background: #3498db;
@@ -119,7 +133,6 @@ hr{
   width: 50%;
   margin: 50px auto 100px;
   text-align: left;
-  line-height: 2;
 }
 
 
@@ -144,10 +157,12 @@ hr{
 
 }
 
-
-.footer-link{
-  margin-right: 25px;
+.copyright{
+  color: #eaf6f6;
+  font-size: .75rem;
+  padding: 20px 0;
 }
+
 
 
 
